@@ -6,38 +6,37 @@
 #include <cstring>
 using namespace std;
 
-#define MAXN 250
-int arr[MAXN][MAXN];
+#define MAXN 8192
+bool arr[MAXN][MAXN];
 string s1, s2;
-int s1l,s2l;
 int s1_length,s2_length;
 
 bool LCS()
 {
-    for (int i=0; i<=s1_length; i++) arr[i][0] = 0;
-    for (int j=0; j<=s2_length; j++) arr[0][j] = 0;
+    for (int i=0; i<=s1_length; i++) arr[i][0] = false;
+    for (int j=0; j<=s2_length; j++) arr[0][j] = false;
+    arr[0][0]=true;
 
     for (int i=1; i<=s1_length; i++){
         for (int j=1; j<=s2_length; j++){
-            if (s1[i] == s2[j] || s1[i]=='*' || s2[j]=='*'){
-                arr[i][j] = arr[i-1][j-1] + 1;
+            arr[i][j]=false;
+            if(s1[i-1]=='*'){
+                arr[i][j] |= arr[i-1][j] || arr[i-1][j-1];
+            }if(s2[j-1]=='*'){
+                arr[i][j] |= arr[i][j-1] || arr[i-1][j-1];
             }
-            else{
-                arr[i][j] = max(arr[i-1][j], arr[i][j-1]);
+            if (s1[i-1] == s2[j-1]){
+                arr[i][j] |= arr[i-1][j-1];
             }
         }
     }
 
-    for (int i=1; i<=s1_length; i++){
-        for (int j=1; j<=s2_length; j++)
-            cout<<arr[i][j]<<" ";
-        cout<<endl;
-    }
-    cout<<s1_length<<" "<<s2_length<<" "<<s1l<<" "<<s2l<<" "<<endl;
-    if(arr[s1_length][s2_length]>=s1_length && arr[s1_length][s2_length]>=s2_length)
-        return true;
-    else
-        return false;
+    // for (int i=1; i<=s1_length; i++){
+    //     for (int j=1; j<=s2_length; j++)
+    //         cout<<arr[i][j]<<" ";
+    //     cout<<endl;
+    // }
+    return arr[s1_length][s2_length];
     //cout << "LCS的長度是" << arr[s1_length][s2_length];
 }
 
@@ -54,12 +53,10 @@ int main()
         printf("Case #%d: ",cc);
         ans=true;
         cin>>in;
-        s1l=in.length();
         s1="";
         for(i=0;i<in.length();++i){
             if(in[i]=='*'){
                 s1+="****";
-
             }
             else
                 s1+=in[i];
@@ -67,7 +64,6 @@ int main()
         s1_length=s1.length();
         cin>>in;
         s2="";
-        s2l=in.length();
         for(i=0;i<in.length();++i){
             if(in[i]=='*'){
                 s2+="****";
@@ -76,12 +72,12 @@ int main()
                 s2+=in[i];
         }
         s2_length=s2.length();
-        cout<<s1<<" "<<s2<<endl;
+        // cout<<s1<<" "<<s2<<endl;
         ans=LCS();
         if(ans)
-            printf("TRUE");
+            printf("TRUE\n");
         else
-            printf("FALSE");
+            printf("FALSE\n");
     }
     return 0;
 }
