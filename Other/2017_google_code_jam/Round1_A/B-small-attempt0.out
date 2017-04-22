@@ -1,0 +1,1009 @@
+Case #1:
+pack[i][j] = 900
+pack[i][j] = 660
+1
+Case #2:
+pack[i][j] = 1500
+pack[i][j] = 809
+1
+Case #3:
+pack[i][j] = 450
+pack[i][j] = 449
+pack[i][j] = 1100
+pack[i][j] = 1101
+1
+Case #4:
+pack[i][j] = 300
+pack[i][j] = 500
+1
+Case #5:
+pack[i][j] = 11
+pack[i][j] = 13
+pack[i][j] = 17
+pack[i][j] = 11
+pack[i][j] = 16
+pack[i][j] = 14
+pack[i][j] = 12
+pack[i][j] = 18
+8
+Case #6:
+pack[i][j] = 11950
+pack[i][j] = 11592
+pack[i][j] = 12266
+pack[i][j] = 12832
+pack[i][j] = 13492
+pack[i][j] = 13160
+pack[i][j] = 12840
+pack[i][j] = 8025
+pack[i][j] = 8017
+pack[i][j] = 8020
+pack[i][j] = 7995
+pack[i][j] = 8855
+pack[i][j] = 7653
+pack[i][j] = 8592
+1
+Case #7:
+pack[i][j] = 6618
+pack[i][j] = 6729
+pack[i][j] = 6010
+pack[i][j] = 6612
+pack[i][j] = 7260
+pack[i][j] = 7163
+pack[i][j] = 7036
+pack[i][j] = 7326
+pack[i][j] = 10165
+pack[i][j] = 10020
+pack[i][j] = 9485
+pack[i][j] = 9918
+pack[i][j] = 8999
+pack[i][j] = 8910
+pack[i][j] = 9927
+pack[i][j] = 8991
+1
+Case #8:
+pack[i][j] = 5159
+pack[i][j] = 4590
+pack[i][j] = 4795
+pack[i][j] = 5100
+pack[i][j] = 5036
+pack[i][j] = 5100
+pack[i][j] = 5500
+pack[i][j] = 4665
+8
+Case #9:
+pack[i][j] = 18000
+pack[i][j] = 18348
+pack[i][j] = 17046
+3
+Case #10:
+pack[i][j] = 14
+pack[i][j] = 9
+pack[i][j] = 18
+pack[i][j] = 12
+pack[i][j] = 48
+pack[i][j] = 88
+pack[i][j] = 56
+pack[i][j] = 38
+1
+Case #11:
+pack[i][j] = 999864
+pack[i][j] = 877680
+pack[i][j] = 675724
+pack[i][j] = 890597
+pack[i][j] = 821398
+5
+Case #12:
+pack[i][j] = 18717
+pack[i][j] = 16254
+pack[i][j] = 17856
+pack[i][j] = 18700
+pack[i][j] = 17030
+pack[i][j] = 16914
+pack[i][j] = 18594
+pack[i][j] = 18700
+pack[i][j] = 7650
+pack[i][j] = 7650
+pack[i][j] = 8932
+pack[i][j] = 8403
+pack[i][j] = 8024
+pack[i][j] = 8515
+pack[i][j] = 7730
+pack[i][j] = 9185
+1
+Case #13:
+pack[i][j] = 14858
+pack[i][j] = 5820
+pack[i][j] = 12975
+pack[i][j] = 3200
+4
+Case #14:
+pack[i][j] = 9
+pack[i][j] = 9
+pack[i][j] = 9
+pack[i][j] = 99
+pack[i][j] = 9
+pack[i][j] = 99
+pack[i][j] = 9
+7
+Case #15:
+pack[i][j] = 27117
+pack[i][j] = 12647
+pack[i][j] = 18700
+pack[i][j] = 6947
+pack[i][j] = 22000
+5
+Case #16:
+pack[i][j] = 585735
+pack[i][j] = 512916
+pack[i][j] = 956905
+pack[i][j] = 703512
+pack[i][j] = 779366
+pack[i][j] = 592721
+pack[i][j] = 985209
+7
+Case #17:
+pack[i][j] = 17
+pack[i][j] = 16
+2
+Case #18:
+pack[i][j] = 8229
+pack[i][j] = 8504
+pack[i][j] = 9350
+pack[i][j] = 9153
+pack[i][j] = 8490
+pack[i][j] = 8992
+pack[i][j] = 7903
+7
+Case #19:
+pack[i][j] = 100
+pack[i][j] = 1000
+1
+Case #20:
+pack[i][j] = 680897
+pack[i][j] = 972016
+pack[i][j] = 403572
+pack[i][j] = 731062
+pack[i][j] = 809785
+5
+Case #21:
+pack[i][j] = 4140
+pack[i][j] = 3960
+pack[i][j] = 4400
+pack[i][j] = 4088
+pack[i][j] = 5358
+pack[i][j] = 6050
+pack[i][j] = 5264
+pack[i][j] = 5500
+1
+Case #22:
+pack[i][j] = 1478
+pack[i][j] = 1084
+pack[i][j] = 2250
+pack[i][j] = 536
+pack[i][j] = 2000
+5
+Case #23:
+pack[i][j] = 2
+pack[i][j] = 1
+pack[i][j] = 8
+pack[i][j] = 3
+pack[i][j] = 4
+pack[i][j] = 7
+pack[i][j] = 6
+pack[i][j] = 5
+0
+Case #24:
+pack[i][j] = 11738
+pack[i][j] = 5182
+pack[i][j] = 12421
+pack[i][j] = 18400
+pack[i][j] = 1575
+pack[i][j] = 8032
+pack[i][j] = 7703
+pack[i][j] = 12240
+pack[i][j] = 1452
+pack[i][j] = 2300
+pack[i][j] = 1514
+pack[i][j] = 1071
+pack[i][j] = 197
+pack[i][j] = 1015
+pack[i][j] = 639
+pack[i][j] = 1870
+1
+Case #25:
+pack[i][j] = 900000
+pack[i][j] = 899999
+pack[i][j] = 900001
+0
+Case #26:
+pack[i][j] = 4
+pack[i][j] = 2
+pack[i][j] = 8
+pack[i][j] = 11
+pack[i][j] = 3
+pack[i][j] = 11
+pack[i][j] = 9
+pack[i][j] = 9
+pack[i][j] = 2
+pack[i][j] = 4
+pack[i][j] = 8
+pack[i][j] = 3
+1
+Case #27:
+pack[i][j] = 414
+pack[i][j] = 440
+pack[i][j] = 396
+pack[i][j] = 364
+pack[i][j] = 406
+pack[i][j] = 400
+pack[i][j] = 360
+pack[i][j] = 200
+pack[i][j] = 187
+pack[i][j] = 220
+pack[i][j] = 210
+pack[i][j] = 180
+pack[i][j] = 202
+pack[i][j] = 187
+1
+Case #28:
+pack[i][j] = 7200
+pack[i][j] = 9000
+1
+Case #29:
+pack[i][j] = 1325
+pack[i][j] = 3601
+pack[i][j] = 3878
+pack[i][j] = 693
+pack[i][j] = 2310
+pack[i][j] = 6160
+pack[i][j] = 4621
+pack[i][j] = 2800
+pack[i][j] = 1350
+pack[i][j] = 3600
+pack[i][j] = 2596
+pack[i][j] = 3195
+pack[i][j] = 2959
+pack[i][j] = 456
+pack[i][j] = 2000
+pack[i][j] = 964
+1
+Case #30:
+pack[i][j] = 2704
+pack[i][j] = 3043
+pack[i][j] = 2520
+pack[i][j] = 2828
+pack[i][j] = 1760
+pack[i][j] = 1616
+pack[i][j] = 1562
+pack[i][j] = 1678
+1
+Case #31:
+pack[i][j] = 81302
+pack[i][j] = 850285
+pack[i][j] = 859272
+pack[i][j] = 951860
+pack[i][j] = 853347
+pack[i][j] = 720395
+pack[i][j] = 987092
+pack[i][j] = 745384
+pack[i][j] = 629898
+pack[i][j] = 988824
+pack[i][j] = 959997
+pack[i][j] = 932398
+1
+Case #32:
+pack[i][j] = 3000
+pack[i][j] = 2800
+pack[i][j] = 2520
+pack[i][j] = 2610
+pack[i][j] = 1141
+pack[i][j] = 1272
+pack[i][j] = 1320
+pack[i][j] = 1200
+1
+Case #33:
+pack[i][j] = 63
+pack[i][j] = 9
+pack[i][j] = 9
+pack[i][j] = 99
+pack[i][j] = 49
+pack[i][j] = 72
+pack[i][j] = 17
+pack[i][j] = 54
+pack[i][j] = 6
+pack[i][j] = 39
+pack[i][j] = 34
+pack[i][j] = 48
+pack[i][j] = 6
+pack[i][j] = 44
+pack[i][j] = 54
+pack[i][j] = 11
+1
+Case #34:
+pack[i][j] = 220
+pack[i][j] = 374
+pack[i][j] = 540
+3
+Case #35:
+pack[i][j] = 453
+pack[i][j] = 300
+pack[i][j] = 753
+pack[i][j] = 800
+pack[i][j] = 220
+pack[i][j] = 440
+pack[i][j] = 107
+pack[i][j] = 638
+pack[i][j] = 811
+pack[i][j] = 2880
+pack[i][j] = 6063
+pack[i][j] = 3628
+pack[i][j] = 6400
+pack[i][j] = 2400
+pack[i][j] = 1721
+pack[i][j] = 4808
+1
+Case #36:
+pack[i][j] = 961910
+pack[i][j] = 343923
+pack[i][j] = 433964
+pack[i][j] = 757695
+pack[i][j] = 875310
+pack[i][j] = 668906
+pack[i][j] = 972860
+7
+Case #37:
+pack[i][j] = 4860
+pack[i][j] = 4928
+pack[i][j] = 1684
+pack[i][j] = 2400
+pack[i][j] = 3472
+pack[i][j] = 5521
+pack[i][j] = 6038
+pack[i][j] = 5586
+pack[i][j] = 5441
+pack[i][j] = 5657
+pack[i][j] = 6068
+pack[i][j] = 4777
+pack[i][j] = 5940
+pack[i][j] = 2400
+pack[i][j] = 1625
+pack[i][j] = 3846
+1
+Case #38:
+pack[i][j] = 7
+pack[i][j] = 7
+pack[i][j] = 7
+pack[i][j] = 7
+pack[i][j] = 7
+pack[i][j] = 7
+pack[i][j] = 77
+pack[i][j] = 7
+pack[i][j] = 9
+pack[i][j] = 1
+pack[i][j] = 1
+pack[i][j] = 1
+pack[i][j] = 1
+pack[i][j] = 1
+pack[i][j] = 1
+pack[i][j] = 1
+1
+Case #39:
+pack[i][j] = 14850
+pack[i][j] = 13204
+pack[i][j] = 13509
+pack[i][j] = 1350
+pack[i][j] = 1350
+pack[i][j] = 1501
+1
+Case #40:
+pack[i][j] = 19200
+pack[i][j] = 17422
+pack[i][j] = 16800
+pack[i][j] = 15962
+1
+Case #41:
+pack[i][j] = 427
+pack[i][j] = 7040
+pack[i][j] = 374
+pack[i][j] = 10000
+pack[i][j] = 5121
+pack[i][j] = 9266
+pack[i][j] = 3600
+pack[i][j] = 3696
+pack[i][j] = 6361
+pack[i][j] = 4934
+pack[i][j] = 7200
+pack[i][j] = 12500
+pack[i][j] = 5500
+pack[i][j] = 486
+pack[i][j] = 12321
+pack[i][j] = 536
+1
+Case #42:
+pack[i][j] = 25
+pack[i][j] = 28
+pack[i][j] = 66
+pack[i][j] = 12
+pack[i][j] = 36
+pack[i][j] = 36
+pack[i][j] = 8
+pack[i][j] = 19
+pack[i][j] = 16
+pack[i][j] = 24
+1
+Case #43:
+pack[i][j] = 999944
+pack[i][j] = 870276
+pack[i][j] = 876149
+pack[i][j] = 997268
+pack[i][j] = 999463
+pack[i][j] = 947367
+1
+Case #44:
+pack[i][j] = 5100
+pack[i][j] = 5100
+pack[i][j] = 4869
+pack[i][j] = 5150
+pack[i][j] = 5049
+pack[i][j] = 4837
+pack[i][j] = 5610
+pack[i][j] = 5610
+pack[i][j] = 13600
+pack[i][j] = 12240
+pack[i][j] = 14491
+pack[i][j] = 13291
+pack[i][j] = 12240
+pack[i][j] = 12502
+pack[i][j] = 12666
+pack[i][j] = 13600
+1
+Case #45:
+pack[i][j] = 1054
+1
+Case #46:
+pack[i][j] = 29
+pack[i][j] = 45
+2
+Case #47:
+pack[i][j] = 435
+pack[i][j] = 198
+pack[i][j] = 660
+pack[i][j] = 757
+pack[i][j] = 317
+pack[i][j] = 810
+pack[i][j] = 1195
+pack[i][j] = 621
+1
+Case #48:
+pack[i][j] = 2310
+pack[i][j] = 2300
+pack[i][j] = 900
+pack[i][j] = 2107
+pack[i][j] = 505
+pack[i][j] = 785
+pack[i][j] = 2090
+pack[i][j] = 1155
+pack[i][j] = 2399
+pack[i][j] = 1800
+pack[i][j] = 4340
+pack[i][j] = 1073
+pack[i][j] = 4600
+pack[i][j] = 3420
+pack[i][j] = 3780
+pack[i][j] = 1701
+1
+Case #49:
+pack[i][j] = 17964
+pack[i][j] = 20071
+pack[i][j] = 19800
+pack[i][j] = 19456
+pack[i][j] = 17820
+pack[i][j] = 19188
+pack[i][j] = 19800
+pack[i][j] = 20948
+8
+Case #50:
+pack[i][j] = 4
+pack[i][j] = 36
+pack[i][j] = 4
+pack[i][j] = 4
+pack[i][j] = 2
+pack[i][j] = 2
+pack[i][j] = 22
+pack[i][j] = 2
+1
+Case #51:
+pack[i][j] = 12374
+pack[i][j] = 11802
+pack[i][j] = 16766
+pack[i][j] = 18636
+1
+Case #52:
+pack[i][j] = 1800
+pack[i][j] = 4860
+pack[i][j] = 990
+pack[i][j] = 4495
+pack[i][j] = 3693
+pack[i][j] = 6976
+pack[i][j] = 6300
+pack[i][j] = 2524
+pack[i][j] = 2382
+pack[i][j] = 1445
+pack[i][j] = 600
+pack[i][j] = 1250
+pack[i][j] = 270
+pack[i][j] = 2100
+pack[i][j] = 873
+pack[i][j] = 1980
+1
+Case #53:
+pack[i][j] = 19518
+pack[i][j] = 20655
+2
+Case #54:
+pack[i][j] = 330
+1
+Case #55:
+pack[i][j] = 1198
+pack[i][j] = 1208
+pack[i][j] = 1320
+pack[i][j] = 1128
+pack[i][j] = 1234
+pack[i][j] = 1252
+pack[i][j] = 1077
+pack[i][j] = 5400
+pack[i][j] = 6435
+pack[i][j] = 5990
+pack[i][j] = 6040
+pack[i][j] = 6131
+pack[i][j] = 6181
+pack[i][j] = 5941
+1
+Case #56:
+pack[i][j] = 904056
+pack[i][j] = 965683
+1
+Case #57:
+pack[i][j] = 57
+pack[i][j] = 40
+pack[i][j] = 88
+pack[i][j] = 8
+pack[i][j] = 16
+pack[i][j] = 25
+6
+Case #58:
+pack[i][j] = 4194
+pack[i][j] = 4620
+2
+Case #59:
+pack[i][j] = 706033
+pack[i][j] = 787772
+1
+Case #60:
+pack[i][j] = 1400
+pack[i][j] = 1482
+pack[i][j] = 1274
+pack[i][j] = 1492
+pack[i][j] = 1418
+pack[i][j] = 1540
+pack[i][j] = 1319
+pack[i][j] = 1301
+8
+Case #61:
+pack[i][j] = 5817
+1
+Case #62:
+pack[i][j] = 971100
+pack[i][j] = 981736
+pack[i][j] = 752231
+pack[i][j] = 728226
+pack[i][j] = 750896
+pack[i][j] = 926169
+pack[i][j] = 970687
+pack[i][j] = 852541
+pack[i][j] = 788834
+pack[i][j] = 999115
+pack[i][j] = 482018
+pack[i][j] = 912761
+pack[i][j] = 927459
+pack[i][j] = 388027
+pack[i][j] = 578361
+pack[i][j] = 776239
+1
+Case #63:
+pack[i][j] = 474178
+pack[i][j] = 518118
+pack[i][j] = 596904
+pack[i][j] = 701460
+pack[i][j] = 562292
+pack[i][j] = 314885
+pack[i][j] = 958436
+pack[i][j] = 949640
+pack[i][j] = 999900
+pack[i][j] = 609127
+1
+Case #64:
+pack[i][j] = 3
+pack[i][j] = 27
+pack[i][j] = 3
+pack[i][j] = 3
+pack[i][j] = 3
+pack[i][j] = 3
+pack[i][j] = 3
+pack[i][j] = 3
+pack[i][j] = 6
+pack[i][j] = 6
+pack[i][j] = 6
+pack[i][j] = 66
+pack[i][j] = 6
+pack[i][j] = 6
+pack[i][j] = 6
+pack[i][j] = 6
+1
+Case #65:
+pack[i][j] = 4856
+pack[i][j] = 820
+pack[i][j] = 3246
+pack[i][j] = 3850
+pack[i][j] = 5040
+pack[i][j] = 2400
+pack[i][j] = 1440
+7
+Case #66:
+pack[i][j] = 839581
+pack[i][j] = 987109
+1
+Case #67:
+pack[i][j] = 741090
+pack[i][j] = 738048
+pack[i][j] = 875686
+pack[i][j] = 698425
+pack[i][j] = 775930
+pack[i][j] = 188097
+pack[i][j] = 997307
+pack[i][j] = 794883
+pack[i][j] = 493620
+pack[i][j] = 453651
+pack[i][j] = 416723
+pack[i][j] = 732471
+pack[i][j] = 692269
+pack[i][j] = 982058
+pack[i][j] = 802880
+pack[i][j] = 993860
+1
+Case #68:
+pack[i][j] = 3980
+pack[i][j] = 4444
+pack[i][j] = 3649
+pack[i][j] = 4332
+pack[i][j] = 4356
+pack[i][j] = 4295
+6
+Case #69:
+pack[i][j] = 3400
+pack[i][j] = 3267
+pack[i][j] = 3572
+pack[i][j] = 3060
+pack[i][j] = 3070
+5
+Case #70:
+pack[i][j] = 601
+pack[i][j] = 4320
+pack[i][j] = 5551
+pack[i][j] = 1722
+4
+Case #71:
+pack[i][j] = 1429
+pack[i][j] = 602
+1
+Case #72:
+pack[i][j] = 992129
+pack[i][j] = 830843
+pack[i][j] = 688795
+3
+Case #73:
+pack[i][j] = 886179
+pack[i][j] = 902708
+pack[i][j] = 262522
+pack[i][j] = 899616
+pack[i][j] = 943817
+pack[i][j] = 696204
+pack[i][j] = 994099
+pack[i][j] = 614875
+pack[i][j] = 605791
+pack[i][j] = 760456
+pack[i][j] = 778673
+pack[i][j] = 957724
+pack[i][j] = 121900
+pack[i][j] = 357015
+pack[i][j] = 929719
+pack[i][j] = 793583
+1
+Case #74:
+pack[i][j] = 9
+pack[i][j] = 17
+pack[i][j] = 81
+pack[i][j] = 18
+pack[i][j] = 44
+pack[i][j] = 81
+pack[i][j] = 18
+pack[i][j] = 18
+pack[i][j] = 77
+pack[i][j] = 15
+pack[i][j] = 14
+pack[i][j] = 7
+pack[i][j] = 15
+pack[i][j] = 77
+pack[i][j] = 33
+pack[i][j] = 13
+1
+Case #75:
+pack[i][j] = 36
+pack[i][j] = 16
+pack[i][j] = 4
+pack[i][j] = 28
+pack[i][j] = 34
+pack[i][j] = 19
+pack[i][j] = 29
+7
+Case #76:
+pack[i][j] = 1306
+pack[i][j] = 764
+pack[i][j] = 1807
+pack[i][j] = 4400
+pack[i][j] = 2585
+pack[i][j] = 9000
+pack[i][j] = 1200
+pack[i][j] = 1600
+pack[i][j] = 1500
+pack[i][j] = 13750
+pack[i][j] = 3583
+pack[i][j] = 1044
+pack[i][j] = 2000
+pack[i][j] = 4500
+pack[i][j] = 2332
+pack[i][j] = 1538
+1
+Case #77:
+pack[i][j] = 11745
+pack[i][j] = 8755
+pack[i][j] = 15951
+pack[i][j] = 7665
+pack[i][j] = 10260
+pack[i][j] = 7586
+pack[i][j] = 14487
+pack[i][j] = 600
+8
+Case #78:
+pack[i][j] = 1400
+pack[i][j] = 770
+pack[i][j] = 600
+pack[i][j] = 270
+1
+Case #79:
+pack[i][j] = 1739
+pack[i][j] = 1772
+pack[i][j] = 1800
+pack[i][j] = 1980
+4
+Case #80:
+pack[i][j] = 326
+pack[i][j] = 185
+pack[i][j] = 90
+pack[i][j] = 990
+pack[i][j] = 2872
+pack[i][j] = 1660
+1
+Case #81:
+pack[i][j] = 2
+pack[i][j] = 2
+pack[i][j] = 2
+pack[i][j] = 18
+pack[i][j] = 2
+pack[i][j] = 2
+pack[i][j] = 2
+7
+Case #82:
+pack[i][j] = 51
+pack[i][j] = 48
+pack[i][j] = 56
+pack[i][j] = 24
+pack[i][j] = 39
+pack[i][j] = 88
+pack[i][j] = 32
+pack[i][j] = 41
+pack[i][j] = 5
+pack[i][j] = 7
+pack[i][j] = 7
+pack[i][j] = 9
+pack[i][j] = 3
+pack[i][j] = 4
+pack[i][j] = 5
+pack[i][j] = 6
+1
+Case #83:
+pack[i][j] = 28
+pack[i][j] = 35
+pack[i][j] = 38
+pack[i][j] = 63
+pack[i][j] = 33
+pack[i][j] = 21
+pack[i][j] = 51
+pack[i][j] = 41
+pack[i][j] = 18
+pack[i][j] = 12
+pack[i][j] = 44
+pack[i][j] = 19
+pack[i][j] = 20
+pack[i][j] = 16
+pack[i][j] = 27
+pack[i][j] = 22
+1
+Case #84:
+pack[i][j] = 550
+pack[i][j] = 923
+pack[i][j] = 810
+pack[i][j] = 1727
+1
+Case #85:
+pack[i][j] = 1320
+pack[i][j] = 1262
+pack[i][j] = 1000
+pack[i][j] = 643
+pack[i][j] = 1730
+pack[i][j] = 784
+pack[i][j] = 364
+pack[i][j] = 220
+8
+Case #86:
+pack[i][j] = 16
+pack[i][j] = 88
+pack[i][j] = 63
+pack[i][j] = 14
+1
+Case #87:
+pack[i][j] = 882970
+pack[i][j] = 982178
+pack[i][j] = 622427
+pack[i][j] = 735625
+pack[i][j] = 871986
+pack[i][j] = 921304
+pack[i][j] = 944467
+pack[i][j] = 948343
+pack[i][j] = 507579
+pack[i][j] = 445196
+pack[i][j] = 417536
+pack[i][j] = 910011
+1
+Case #88:
+pack[i][j] = 37
+pack[i][j] = 45
+pack[i][j] = 25
+pack[i][j] = 10
+pack[i][j] = 33
+pack[i][j] = 15
+pack[i][j] = 21
+pack[i][j] = 6
+1
+Case #89:
+pack[i][j] = 5
+pack[i][j] = 5
+pack[i][j] = 45
+pack[i][j] = 5
+pack[i][j] = 5
+5
+Case #90:
+pack[i][j] = 886596
+pack[i][j] = 274260
+pack[i][j] = 602707
+pack[i][j] = 822631
+pack[i][j] = 838714
+4
+Case #91:
+pack[i][j] = 4153
+pack[i][j] = 3894
+pack[i][j] = 3510
+pack[i][j] = 3665
+pack[i][j] = 3836
+pack[i][j] = 7846
+pack[i][j] = 8580
+pack[i][j] = 7788
+pack[i][j] = 8319
+pack[i][j] = 7682
+1
+Case #92:
+pack[i][j] = 1015
+pack[i][j] = 1122
+pack[i][j] = 998
+pack[i][j] = 3672
+pack[i][j] = 3992
+pack[i][j] = 4058
+1
+Case #93:
+pack[i][j] = 11880
+pack[i][j] = 5117
+pack[i][j] = 8433
+pack[i][j] = 24200
+1
+Case #94:
+pack[i][j] = 2800
+pack[i][j] = 2800
+pack[i][j] = 3000
+pack[i][j] = 3080
+pack[i][j] = 2760
+pack[i][j] = 2520
+pack[i][j] = 2710
+pack[i][j] = 2537
+pack[i][j] = 2377
+pack[i][j] = 2465
+pack[i][j] = 2181
+pack[i][j] = 2640
+pack[i][j] = 2400
+pack[i][j] = 2400
+pack[i][j] = 2160
+pack[i][j] = 2211
+1
+Case #95:
+pack[i][j] = 3600
+pack[i][j] = 853
+pack[i][j] = 5799
+pack[i][j] = 660
+4
+Case #96:
+pack[i][j] = 10
+pack[i][j] = 48
+pack[i][j] = 10
+pack[i][j] = 47
+1
+Case #97:
+pack[i][j] = 440
+pack[i][j] = 412
+2
+Case #98:
+pack[i][j] = 7402
+pack[i][j] = 8298
+pack[i][j] = 3080
+pack[i][j] = 8333
+pack[i][j] = 5600
+pack[i][j] = 1625
+pack[i][j] = 5040
+pack[i][j] = 16731
+pack[i][j] = 3220
+pack[i][j] = 14734
+pack[i][j] = 14945
+pack[i][j] = 11200
+1
+Case #99:
+pack[i][j] = 1000000
+pack[i][j] = 999999
+pack[i][j] = 999998
+pack[i][j] = 999997
+pack[i][j] = 999996
+pack[i][j] = 999995
+pack[i][j] = 999994
+pack[i][j] = 999993
+pack[i][j] = 999992
+pack[i][j] = 999991
+pack[i][j] = 999990
+pack[i][j] = 999989
+pack[i][j] = 999988
+pack[i][j] = 999987
+pack[i][j] = 999986
+pack[i][j] = 999985
+1
+Case #100:
+pack[i][j] = 4356
+pack[i][j] = 4189
+pack[i][j] = 4400
+pack[i][j] = 3601
+pack[i][j] = 4000
+pack[i][j] = 4166
+pack[i][j] = 4000
+pack[i][j] = 3240
+pack[i][j] = 3690
+pack[i][j] = 3670
+pack[i][j] = 3600
+pack[i][j] = 3461
+pack[i][j] = 3600
+pack[i][j] = 3401
+1
