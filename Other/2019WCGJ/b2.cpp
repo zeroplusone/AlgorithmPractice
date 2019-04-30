@@ -1,7 +1,9 @@
 /******
-Solution 1. naive: list all possibilities
-time complexity: O(4^n)
-space complexity: O(n)
+Solution 2. Boustrophedon
+https://en.wikipedia.org/wiki/Boustrophedon
+
+time complexity: O(R*C)
+space complexity: O(1)
 ******/
 #include <bits/stdc++.h>
 using namespace std;
@@ -108,8 +110,16 @@ void print()
     }
 }
 
-void solve(int now)
+bool solve()
 {
+    if(R==1 || C==1){
+        if(K==max(R, C))
+            return true;
+        else
+            return false;
+    }else{
+        
+    }
     // base case
     if (now == R * C)
     {
@@ -148,13 +158,10 @@ int main()
     for (int tt = 1; tt <= T; tt++)
     {
         printf("Case #%d: ", tt);
-        isFindAns = false;
         Fill(ans, -1);
         Fill(visited, false);
         scanf("%d %d %d", &R, &C, &K);
-        solve(0);
-        if (isFindAns)
-        {
+        if(solve(0)){
             printf("POSSIBLE\n");
             printAns();
         }
