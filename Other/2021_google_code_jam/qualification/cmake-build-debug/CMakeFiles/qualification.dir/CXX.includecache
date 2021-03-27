@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zeroplusone/Google Drive/AlgorithmPractice/Other/2021_google_code_jam/qualification/a.cpp
+bits/stdc++.h
+-
+
