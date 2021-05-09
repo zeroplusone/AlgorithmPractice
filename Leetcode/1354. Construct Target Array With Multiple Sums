@@ -1,0 +1,28 @@
+class Solution {
+public:
+    bool isPossible(vector<int>& target) {
+        
+        if(target.size()==1 && target[0]!=1) {
+            return false;
+        }
+
+        priority_queue<int> pq;
+        long long int sum=0;
+        for(int i=0;i<target.size();++i) {
+            pq.push(target[i]);
+            sum+=target[i];
+        }
+        
+        while(pq.top()!=1) {
+            long long int rest = sum-pq.top();
+            if(pq.top()<=rest) {
+                return false;
+            } 
+            int mod=(pq.top()-1)%rest+1;
+            sum=sum-pq.top()+mod;
+            pq.pop();
+            pq.push(mod);
+        }
+        return true;
+    }
+};
