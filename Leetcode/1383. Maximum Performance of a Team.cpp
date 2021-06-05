@@ -16,25 +16,22 @@ public:
             engs.push_back(eng(speed[i], efficiency[i]));
         }        
         sort(engs.begin(), engs.end(), comparator);
-        
-        auto cmp = [](eng e1, eng e2) {
-            return e1.s>e2.s;
-        };
-        priority_queue<eng, vector<eng>, decltype(cmp)> pq(cmp);
+
+        priority_queue<int, vector<int>, greater<int>> pq;
 
         long long int s_sum=0;
 
         long long int ans=0;
         for(int i=0;i<k;++i) {
             s_sum+=engs[i].s;
-            pq.push(engs[i]);
+            pq.push(engs[i].s);
             ans=max(ans, s_sum*engs[i].e);
         }
         
         for(int i=k;i<n;++i) {
-            s_sum=s_sum+engs[i].s-pq.top().s;
+            s_sum=s_sum+engs[i].s-pq.top();
             pq.pop();
-            pq.push(engs[i]);
+            pq.push(engs[i].s);
             ans=max(ans, s_sum*engs[i].e);
         }
 
