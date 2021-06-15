@@ -29,13 +29,25 @@ public:
         } 
 
         for(int i=0;i<edges.size();++i) {
-            if(edges[i]-matchsticks[now]>=0) {
-                edges[i]-=matchsticks[now];
-                if(solve(now+1, edges, matchsticks)) {
-                    return true;
-                }
-                edges[i]+=matchsticks[now];
+            if(edges[i]-matchsticks[now]<0) {
+                continue;
             }
+            int j;
+            for(j=0;j<i;++j) {
+                if(edges[i]==edges[j]) {
+                    break;
+                }
+            }
+            if(j!=i) {
+                continue;
+            }
+
+            edges[i]-=matchsticks[now];
+            if(solve(now+1, edges, matchsticks)) {
+                return true;
+            }
+            edges[i]+=matchsticks[now];            
+            
         }
         return false;
     }
