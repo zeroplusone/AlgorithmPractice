@@ -5,15 +5,12 @@ public:
         dp[0]=unordered_set<string>{""};
         dp[1]=unordered_set<string>{"()"};
         for(int i=2;i<=n;++i) {
-            for(int j=1;j<i;++j) {
-                for(auto k: dp[j]) {
-                    for(auto l: dp[i-j]) {
-                        dp[i].insert(k+l);    
+            for(int j=0;j<i;++j) {
+                for(auto left: dp[j]) {
+                    for(auto right: dp[i-j-1]) {
+                        dp[i].insert("("+left+")"+right);  
                     }
                 }   
-            }
-            for(auto j: dp[i-1]) {
-                dp[i].insert("("+j+")");    
             }
         }
 
