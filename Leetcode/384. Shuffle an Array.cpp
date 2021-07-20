@@ -1,30 +1,27 @@
 class Solution {
 public:
-    vector<int> original, arr;
+    vector<int> original;
 
     Solution(vector<int>& nums) {
-        arr=nums;     
-        original = vector<int>(nums);
-        srand (time(NULL));
+        original = nums;
     }
     
     /** Resets the array to its original configuration and return it. */
     vector<int> reset() {
-        arr=original;
-        original=vector<int>(original);
-        return arr;
+        return original;
     }
     
     /** Returns a random shuffling of the array. */
     vector<int> shuffle() {
-        int offset, tmp, mod=arr.size();
-        for(int i=0;i<arr.size()-1;++i, mod--) {
+        vector<int> shuffle = original;
+        int offset, tmp, mod=original.size();
+        for(int i=0;i<original.size()-1;++i, mod--) {
             offset=rand()%mod;
-            tmp=arr[i+offset];
-            arr[i+offset]=arr[i];
-            arr[i]=tmp;
+            tmp=shuffle[i+offset];
+            shuffle[i+offset]=shuffle[i];
+            shuffle[i]=tmp;
         }
-        return arr;
+        return shuffle;
     }
 };
 
