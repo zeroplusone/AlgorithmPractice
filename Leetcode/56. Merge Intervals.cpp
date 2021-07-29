@@ -1,10 +1,8 @@
 class Solution {
 public:
-    static bool comparator(vector<int> i1, vector<int> i2) {
-        return i1[0]==i2[0]?i1[1]>i2[1]:i1[0]<i2[0];
-    }
+
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
-        sort(intervals.begin(), intervals.end(), comparator);
+        sort(intervals.begin(), intervals.end());
         int st=intervals[0][0];
         int en=intervals[0][1];
         
