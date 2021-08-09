@@ -16,11 +16,12 @@ public:
             }
             
             digit+=carry;
-            ans.insert(0, to_string(digit%10));
+            ans.push_back('0'+(digit%10));
             carry=digit/10;
             i--;
             j--;
         }
+        reverse(ans.begin(), ans.end());
         return ans;
     }
 };
