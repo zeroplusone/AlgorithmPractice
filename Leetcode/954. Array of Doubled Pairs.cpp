@@ -19,14 +19,13 @@ public:
             }
             
             int match=it.first<0?it.first/2:it.first*2;
-            while(it.second!=0) {
-                if(cnt[match]!=0) {
-                    it.second--;
-                    cnt[match]--;
-                } else {
-                    return false;
-                }
+            if(cnt[match]>=it.second) {
+                cnt[match]-=it.second;
+                it.second=0;
+            } else {
+                return false;
             }
+
         }
         return true;
     }
