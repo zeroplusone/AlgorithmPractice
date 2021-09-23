@@ -12,13 +12,7 @@ public:
             }
         }
         
-        for(int i=palindrome.length()-1;i>=palindrome.length()/2;--i) {
-            if(palindrome[i]!='z') {
-                palindrome[i]++;
-                return palindrome;
-            }
-        }
-        
-        return "";
+        palindrome[palindrome.length()-1]='b';
+        return palindrome;
     }
 };
