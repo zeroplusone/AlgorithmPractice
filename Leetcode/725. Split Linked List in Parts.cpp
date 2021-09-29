@@ -20,7 +20,7 @@ public:
 
         vector<ListNode*> ans(k);
         now=head;
-        for(int i=0;i<k;++i) {
+        for(int i=0;i<k && now!=nullptr;++i) {
             int l=len/k+(i<len%k?1:0);
             ans[i]=now;
 
