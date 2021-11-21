@@ -16,24 +16,25 @@ public:
         if(n==0) {
             return nullptr;
         }
-        int rval=postorder[n-1];
+        return solve(inorder, postorder, 0, n-1, 0, n-1);
+    }
+    
+    TreeNode* solve(vector<int>& inorder, vector<int>& postorder, int il, int ir, int pl, int pr) {
+        if(ir-il<0) {
+            return nullptr;
+        }
+        int rval=postorder[pr];
         TreeNode* root=new TreeNode(rval);
         
-        int rindex=0;
-        for(int i=0;i<inorder.size();++i) {
+        int lsize=0;
+        for(int i=il;i<=ir;++i, lsize++) {
             if(inorder[i]==rval) {
-                rindex=i;
                 break;
             }
         }
-        vector<int> inl(inorder.begin(), inorder.begin()+rindex);
-        vector<int> inr(postorder.begin(), postorder.begin()+rindex);
-        
-        vector<int> postl(inorder.begin()+rindex+1, inorder.end());
-        vector<int> postr(postorder.begin()+rindex, postorder.end()-1);
 
-        root->left=buildTree(inl, inr);
-        root->right=buildTree(postl, postr);
+        root->left=solve(inorder, postorder, il, il+lsize-1, pl, pl+lsize-1);
+        root->right=solve(inorder, postorder, il+lsize+1, ir, pl+lsize, pr-1);
         return root;
     }
 };
