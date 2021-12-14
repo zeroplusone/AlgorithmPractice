@@ -12,20 +12,17 @@
 class Solution {
 public:
     int rangeSumBST(TreeNode* root, int low, int high) {
-        int ans=0;
-        traverse(root, low, high, ans);
-        return ans;
-    }
-    
-    void traverse(TreeNode* root, int& low, int& high, int& ans) {
         if(root==nullptr) {
-            return;
+            return 0;
         }
         
         if(root->val>=low&&root->val<=high) {
-            ans+=root->val;
+            return root->val+rangeSumBST(root->left, low, high)+rangeSumBST(root->right, low, high);
+        } else if(root->val<low) {
+            return rangeSumBST(root->right, low, high);
+        } else if(root->val>high) {
+            return rangeSumBST(root->left, low, high);
         }
-        traverse(root->left, low, high, ans);
-        traverse(root->right, low, high, ans);
+        return 0;
     }
 };
